@@ -1,0 +1,5 @@
+jasmine:
+  port: 8885
+
+server:
+  port: 3300
