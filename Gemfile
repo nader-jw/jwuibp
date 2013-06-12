@@ -10,3 +10,4 @@ gem "jasmine", "~> 1.3.2"
 gem "rspec"
 gem "selenium-webdriver"
 gem "capybara", "~> 2.0.3"
+gem 'license_finder'

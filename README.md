@@ -1,19 +1,30 @@
-JWUIBP
-=====
-JW UI Boiler Plate
+# JWUIBP
 
-Basic Setup & Running App Locally
------
+JW-UI Boilerplate project.
 
-#####Clone project code from github:
-`https://github.com/jiwire/jwuibp`
+## Basic setup and getting started
 
-#####Install gems
-`gem install bundler`
-`bundle install`
 
-#####Running sinatra app server + jasmine server
-`bundle exec rake run`
+Clone project code from github:
+```sh
+$ git clone https://github.com/jiwire/jwuibp
+```
 
-#####Running all tests
-`bundle exec rake`
+Install bundler and gems
+```sh
+$ gem install bundler
+$ bundle install
+```
+Start local development environment
+```sh
+$ bundle exec rake run
+```
+Run all tests
+```sh
+$ bundle exec rake
+```
+
+##Prerequisites
+- Ruby 1.9.2
+- RVM recommended
+
